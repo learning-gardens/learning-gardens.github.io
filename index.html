@@ -32,13 +32,31 @@
     -->
     <style>
       body {
-        background-color: #FADED5;
-        font: 1.5em/1.5em Arial, sans-serif;;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        /*   background-color: #FADED5; */
+        font: 1.5em/1em Arial, sans-serif;
+      }
+
+      .intro {
+        width: 30%;
+        height: 5em;
+        margin: auto;
+      }
+
+      a {
+        text-decoration: none;
+        color: #0066ff;
       }
     </style>
   </head>
   <body>
-    <p>Sunday School, soon.</p>
-    <a href="https://sunday-school-slack-automation.herokuapp.com/">Join our Slack!</a>
+    <div class="intro">
+      <p><a href="http://sunday-school.github.io/">Sunday School</a>, soon.</p>
+      <a href="http://sunday-school.github.io/">Join our slack.</a>
+    </div>
   </body>
 </html>
