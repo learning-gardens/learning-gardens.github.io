@@ -1,5 +1,5 @@
-Sunday School
+Learning Gardens
 
 —
 
-SS website and class directory and more (coming soon)
+A website and class directory and more (coming soon)
