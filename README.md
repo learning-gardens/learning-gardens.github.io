@@ -1,5 +1,5 @@
-Learning Gardens
+# Cactus Example Blog
 
-—
+This is an example blog project for [Cactus](https://github.com/koenbok/Cactus). It provides a starting point for your own blog. Just download it, make sure you have [Cactus](https://github.com/koenbok/Cactus) installed and run `cactus serve`.
 
-A website and class directory and more (coming soon)
+You can see it running [here](http://cactus-example-blog.s3-website-us-east-1.amazonaws.com/).

@@ -1,0 +1,24 @@
+{% extends "index.html" %}
+{% block content %}
+
+<section id="wrapper">
+
+<header id="header">
+<a id="title" class="index" href="/">{% block title %}{{ block.super }}{% endblock %}</a>
+</header> <!--header-->
+
+<ul id="archive-list">
+	{% for post in posts %}
+		    {% ifchanged %}<h2 class="month">{{ post.date|date:"F Y" }}</h2>{% endifchanged %}	
+	<li> 
+		<a href='/{{ post.path }}'><aside class="dates">{{ post.date|date:"M j" }}</aside></a>
+		<a href='/{{ post.path }}'>{{ post.title }}</a>
+	</li>
+	{% endfor %}
+</ul> <!--post-list-->
+
+{% block footer %}
+{{ block.super }}
+{% endblock %}
+</section> <!--wrapper-->
+{% endblock %}

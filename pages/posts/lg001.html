@@ -1,0 +1,24 @@
+title: Getting started at Learning Gardens
+headline: A lil' written introduction of sorts
+author:
+date: 25-11-2013
+
+{% extends "post.html" %}
+{% block body %}
+
+{% filter markdown %}
+
+Hi, welcome to this place.
+
+If you're reading this, you’re probably wondering where to start!
+
+If you're tired of reading docs and this website in general, we’d highly recommend you <a class="link dim green" href="#">join our lively community in real time chat</a>. We're using Slack for this. It's great.
+
+When you enter the chat, you’ll be dumped in a channel called `#_general`. One of us will probably say “Hi!”, and you can talk about whatever you’d like in here.
+
+We’ve recently started a system where we append any ”Learning Gardens”-related channels with an underscore, so it's easy to tell which channels are *meta*, and which are related to actual learning groups.
+
+We’ll see if this system works in the long run.
+
+{% endfilter %}
+{% endblock body %}
