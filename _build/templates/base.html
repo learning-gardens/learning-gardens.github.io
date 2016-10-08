@@ -44,15 +44,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
 	<link rel="alternate" type="application/rss+xml" title="Learning Gardens" href="/rss.xml">
-</head>
-<body>
-	<article class="cf pa4 mw9 center">
-		{% include 'header.html' %}
 
-	  {% block content %}
-	  	Main content
-	  {% endblock content %}
-	</article>
   {% block scripts %}
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -81,5 +73,15 @@
 	  ga('send', 'pageview');
 	</script>
   {% endblock scripts %}
+</head>
+<body>
+	<article class="cf pa4 mw9 center">
+		{% include 'header.html' %}
+
+	  {% block content %}
+	  	Main content
+	  {% endblock content %}
+	</article>
+
 </body>
 </html>
