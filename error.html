@@ -44,41 +44,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 
 	<link rel="alternate" type="application/rss+xml" title="Learning Gardens" href="/rss.xml">
-</head>
-<body>
-	<article class="cf pa4 mw9 center">
-		<header id="banner"></header>
 
-<header class="fl w-100 w-50-l">
-  <h2 class="lh-title normal f4 pa2 pa4-l">
-    <a class="link black" href="/">Learning Gardens</a>
-  </h2>
-</header>
-
-
-	  
-<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-
-<script type="text/javascript" charset="utf-8">
-	$(document).ready(function() {
-		
-		// Add the missing url to the text
-		$("#url").text(window.location.pathname);
-		
-		// Fix the css locations dynamically
-		$("head link").each(function() {
-			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
-				$(this).attr("href", "../" + $(this).attr("href"));
-		});
-		
-	})
-</script>
-
-<p>
-	Sorry the page <b id="url"></b> could not be found on this server.
-</p>
-
-	</article>
   
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -107,5 +73,41 @@
 	  ga('send', 'pageview');
 	</script>
   
+</head>
+<body>
+	<article class="cf pa4 mw9 center">
+		<header id="banner"></header>
+
+<header class="fl w-100 w-50-l">
+  <h1 class="lh-title normal f4 pa2 pa4-l">
+    <a class="link black" href="/">Learning Gardens</a>
+  </h1>
+</header>
+
+
+	  
+<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+	$(document).ready(function() {
+		
+		// Add the missing url to the text
+		$("#url").text(window.location.pathname);
+		
+		// Fix the css locations dynamically
+		$("head link").each(function() {
+			for (var i=0; i<window.location.pathname.split(/\//g).length-2; i++)
+				$(this).attr("href", "../" + $(this).attr("href"));
+		});
+		
+	})
+</script>
+
+<p>
+	Sorry the page <b id="url"></b> could not be found on this server.
+</p>
+
+	</article>
+
 </body>
 </html>
