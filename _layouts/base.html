@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      _
+ ___/__)                ,
+(, /    _  _   __ __     __   _
+  /   _(/_(_(_/ (_/ (__(_/ (_(_/_
+ (_____                     .-/
+        )                  (_/
+     _____)
+   /                  /)
+  /   ___   _   __  _(/  _ __   _
+ /     / ) (_(_/ (_(_(__(/_/ (_/_)_
+(____ /
+
+    —
+
+    2016 — Ongoing
+
+-->
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    {% include head_stuff.html %}
+
+  </head>
+  <body>
+
+    <header id="banner"></header>
+
+    <header class="fl w-100 w-50-l">
+      <h1 class="lh-title normal f4 pa2 pa4-l">
+        <a class="link black" href="/">Learning Gardens</a>
+      </h1>
+    </header>
+
+
+    <article class="cf pa4 mw9 center">
+      {{ content }}
+    </article>
+
+  </body>
+</html>

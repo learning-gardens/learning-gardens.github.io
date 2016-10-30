@@ -1,15 +1,36 @@
----
-layout: default
----
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+{{ post.title }}
 
-  <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
-  </header>
+<section id="wrapper" class="group fl w-100">
 
-  <div class="post-content" itemprop="articleBody">
-    {{ content }}
-  </div>
+	<header class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
+		<h2 class="lh-title normal f4 lh-copy measure">{{ title }}</h2>
+		<h2 class="black-50 lh-title normal f4 lh-copy measure headline">{{ headline }} </h2>
+	</header>
+	<section id="post-body" class="fl w-100 w-50-m w-75-l pa2 pv2-l ph4-l f4 lh-copy measure-wide">
+		{{ post.content }}
+	</section>
 
-</article>
+	<!-- <footer id="post-meta" class="group">
+		<div><span>Posted on </span> {{ date|date:"M j" }}</div>
+		<div><span>Written by</span> {{ author }}</div>
+	</footer> -->
+
+<!-- <footer>
+<nav id="post-nav">
+	<span class="prev">
+		{% if prevPost %}
+			<a href='/{{ prevPost.path }}'>
+				<span class="arrow">&larr;</span> {{ prevPost.title }}
+			</a>
+		{% endif %}
+	</span>
+	<span class="next">
+		{% if nextPost %}
+			<a href='/{{ nextPost.path }}'>
+				{{ nextPost.title }} <span class="arrow">&rarr;</span>
+			</a>
+		{% endif %}
+	</span>
+</nav>
+</footer> -->
+</section>
