@@ -1,0 +1,14 @@
+<section class="fl w-100">
+  <h2 class="lh-title normal ph2 pv4 pa4-l f4">Short reads:</h2>
+
+  <ul class="fl w-100 ph2 ph4-l pb4 ma0" id="post-list">
+  	<li class="list"> {% for post in site.posts %}
+  		<a class="link black-50" href='{{ post.url | prepend: site.github.url }}'>
+        <aside class="dates mt4">{{ post.date | date: "%-d %B %Y" }}</aside>
+      </a>
+  		<a class="link black dim f4" href='{{ post.url | prepend: site.github.url }}'>{{ post.title }}
+        <h2 class="lh-title normal black-50 f6  mt1">{{ post.headline }}</h2>
+      </a>
+  	</li> {% endfor %}
+  </ul>
+</section>

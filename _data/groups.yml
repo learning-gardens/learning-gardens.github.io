@@ -1,7 +1,7 @@
 - name: Mondays
   description: >
     Mondays is a casual discussion group for creative thinkers from all disciplines. Its simple aim is to encourage knowledge-sharing and self-learning by providing a space for the commingling of ideas, for reflective conversations that might otherwise not be had.
-  icon: ""
+  icon: "mon-1x1.png"
   url: "http://mondays.nyc/"
   contact: ""
 
@@ -10,21 +10,21 @@
     community of indie game devs and weird web artists
 
     we're here to learn from each other and provide feedback and support for our digital side projects
-  icon: ""
+  icon: "PL-1x1.svg"
   url: ""
   contact: ""
 
 - name: Emulating Intelligence
   description: >
     Emulating Intelligence is a learning group organized around the design, implementation, and implications of artificial intelligence as it is increasingly deployed throughout our lives. We'll weave together the theoretical, the practical, and the social aspects of the field and link it up to current events, anxieties, and discussions. To tie it all together, we'll experiment with tools for integrating AI into our own processes and practices.
-  icon: ""
+  icon: "ei.svg"
   url: ""
   contact: ""
 
 - name: Cybernetics Club
   description: >
     Cybernetics Club is a learning group organized around the legacy of cybernetics and all the fields it has touched. What is the relevance of cybernetics today? Can it provide us the tools to make sense of the world today? Better yet, can it give us a direction for improving things?
-  icon: ""
+  icon: "cc-1x1.png"
   url: "sup"
   contact: ""
 
@@ -42,7 +42,7 @@
     4 reading, collaborating, presenting, critiquing, and hanging
     vaguely identity-oriented, creatively-inclined, internet-aware, structurally-experimental
     networked thinking <<<>>> intersectional thinking
-  icon: ""
+  icon: "MFG.png"
   url: "http://millennialfocusgroup.info/"
   contact: ""
 
