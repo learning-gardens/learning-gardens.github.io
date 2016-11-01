@@ -19,24 +19,31 @@
     2016 — Ongoing
 
 -->
-    <title>{{ post.title }}</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="{{ site.description }}">
 
     {% include head_stuff.html %}
 
-  </head>
-  <body>
+  <section id="wrapper" class="group fl w-100">
+    <header id="banner"></header> <!-- necessary for subtle gradient -->
 
+      <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
+        <h2>
+          <a class="link dim black" href="{{ site.url | prepend: site.github.url }}">Learning Gardens</a>
+        </h2>
+        <h2 class="lh-title normal f4 lh-copy measure">{{ page..title }}</h2>
+        <h2 class="black-50 lh-title normal f4 lh-copy measure headline">{{ page.headline }} </h2>
+      </div>
 
-    <section id="wrapper" class="group fl w-100">
-
-      <header class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
-        <h2 class="lh-title normal f4 lh-copy measure">{{ post.title }}</h2>
-        <h2 class="black-50 lh-title normal f4 lh-copy measure headline">{{ post.headline }} </h2>
-      </header>
       <section id="post-body" class="fl w-100 w-50-m w-75-l pa2 pv2-l ph4-l f4 lh-copy measure-wide">
-        {{ post.content }}
+        {{ page.content }}
       </section>
+
+    </article>
+
+    {% include articles_loop.html %}
+
+
 
       <!-- <footer id="post-meta" class="group">
 <div><span>Posted on </span> {{ date|date:"M j" }}</div>
@@ -65,3 +72,4 @@
     </section>
 
   </body>
+</html>
