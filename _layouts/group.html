@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+      _
+ ___/__)                ,
+(, /    _  _   __ __     __   _
+  /   _(/_(_(_/ (_/ (__(_/ (_(_/_
+ (_____                     .-/
+        )                  (_/
+     _____)
+   /                  /)
+  /   ___   _   __  _(/  _ __   _
+ /     / ) (_(_/ (_(_(__(/_/ (_/_)_
+(____ /
+
+    —
+
+    2016 — Ongoing
+
+-->
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+
+    {% include head_stuff.html %}
+
+  <section id="wrapper" class="group fl w-100">
+    <header id="banner"></header> <!-- necessary for subtle gradient -->
+
+      <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
+        <h2>
+          <a class="link dim black" href="{{ site.url | prepend: site.github.url }}">Learning Gardens</a>
+        </h2>
+        <h2 class="lh-title normal f4 lh-copy measure">{{ page..title }}</h2>
+        <h2 class="black-50 lh-title normal f4 lh-copy measure headline">{{ page.headline }} </h2>
+      </div>
+
+      <section id="post-body" class="fl w-100 w-50-m w-75-l pa2 pv2-l ph4-l f4 lh-copy measure-wide">
+        {{ page.content }}
+
+        <!-- THIS TEMPLATE NOT YET IN USE ...! FOR GROUPS TO HAVE A PAGE TO THEMSELVES PERHAPS  -->
+      </section>
+
+    </article>
+
+    {% include articles_loop.html %}
+
+    </section>
+
+  </body>
+</html>
