@@ -1,19 +1,17 @@
-<!--
-<div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
-  <h1>
-    Our Learning Groups:
-  </h1>
-</div>
--->
-
 <!-- Loop over _data/groups.yml -->
-<div class="ma4 ma5-ns">
-  {% for group in site.data.groups %}
-  <div class="w-33-l pr4 mb5 fl-l mt4 cf-4th p-fix">
-    <img class="w2" src="{{ site.github.url }}/images/{{ group.icon }}">
-    <h2 class="normal">{{ group.name }}</h2>
-    <p class="lh-copy f5">{{ group.description }}</p>
-    <p>{{ group.url }}</p>
-  </div>
-  {% endfor %}
-</div>
+<section class="fl w-100">
+  <h2 class="lh-title normal ph2 pv4 pa4-l f4">Our lovely learning groups:</h2>
+    {% for group in site.data.groups %}
+    <a href="{{ group.url }}" target="_blank" class="black link">
+      <div class="fl w-100 w-50-m w-25-l pa2 pa4-l dib">
+        <div class="aspect-ratio aspect-ratio--1x1">
+            <span style="background-image:url({{ site.github.url }}/images/{{ group.icon }});" class="cover bg-center contain aspect-ratio--object "></span>
+          <!-- <img class="w2" src="{{ site.github.url }}/images/{{ group.icon }}"> -->
+        </div>
+        <!-- <h2 class="normal">{{ group.name }}</h2> -->
+        <p class="lh-copy f7">{{ group.description }}</p>
+        <!-- <p>{{ group.url }}</p> -->
+      </div>
+    </a>
+    {% endfor %}
+</section>
