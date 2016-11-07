@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--
+          _
+     ___/__)                ,
+    (, /    _  _   __ __     __   _
+      /   _(/_(_(_/ (_/ (__(_/ (_(_/_
+     (_____                     .-/
+            )                  (_/
+         _____)
+       /                  /)
+      /   ___   _   __  _(/  _ __   _
+     /     / ) (_(_/ (_(_(__(/_/ (_/_)_
+    (____ /
+
+        —
+
+        2016 — Ongoing
+
+    -->
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    {% include head_stuff.html %}
+  </head>
+
+  <body>
+    <section id="wrapper" class="group fl w-100">
+
+    <article class="cf pa4 mw9 center">
+        <header id="banner"></header> <!-- necessary for subtle gradient -->
+
+        <header class="fl w-100"><h1 class="lh-title normal f4 pa2 pa4-l"><a class="link black" href="/">Learning Gardens</a></h1></header>
+
+        <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
+            <p class="lh-copy normal f4 measure">{{ page.title }}</p>
+            <p class="lh-copy normal f4 measure black-50">{{ page.headline }} </p>
+        </div>
+
+        <section id="post-body" class="fl w-100 w-50-m w-80-l pa2 pv2-l ph4-l f4 lh-copy measure-wide">
+          {{ page.content }}
+        </section>
+
+    </article>
+
+    {% include articles_loop.html %}
+
+    </section>
+
+  </body>
+</html>

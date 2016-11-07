@@ -1,0 +1,21 @@
+# Site settings
+title: Learning Gardens
+email: hello@learning-gardens.co
+version: "v1"
+description: "A Meta-organization for non-institutional learning groups. "
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://learning-gardens.github.io/" # the base hostname & protocol for your site
+
+# Tachyons Version
+tv: "4.5.3"
+
+# Build settings
+markdown: kramdown
+
+# Exclude this stuff
+exclude: [node_modules, gulpfile.js]
+
+# Jekyll Get TK
+jekyll_get:
+  data: team
+  json: 'https://18f.gsa.gov/hub/api/team/'
