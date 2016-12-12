@@ -47,3 +47,10 @@
   icon: "us-1x1.png"
   url: "http://www.utopiaschool.org/"
   contact: ""
+
+- name: A Pattern Language Group
+  description: >
+    Biweekly reading group on A Pattern Language, attempting to reinterpret the book for the current-day.
+  icon: "apl-1x1.png"
+  url: "https://github.com/learning-gardens/pattern_language"
+  contact: ""
