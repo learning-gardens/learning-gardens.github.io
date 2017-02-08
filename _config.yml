@@ -4,7 +4,7 @@ email: hello@learning-gardens.co
 version: "v1"
 description: "A Meta-organization for non-institutional learning groups. "
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://learning-gardens.github.io/" # the base hostname & protocol for your site
+url: "learning-gardens.github.io/" # the base hostname & protocol for your site
 
 # Tachyons Version
 tv: "4.5.3"

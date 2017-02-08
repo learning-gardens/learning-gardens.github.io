@@ -1,8 +1,15 @@
----
-# Overwrite Tachyons here. Don't go overboard!
----
+/* Overwrite Tachyons here. Don't go overboard! */
+h1,h2{
+  font-family: "Lora",sans-serif;
+}
 
-@import 'https://fonts.googleapis.com/css?family=Roboto:400,700';
+a{
+  color: rgb(118,200,101);
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+}
 
 .roboto {
   font-family: "Roboto";
