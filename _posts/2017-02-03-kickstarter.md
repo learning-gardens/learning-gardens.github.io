@@ -17,7 +17,7 @@ The Kickstarter money will firstly cover our pamphlet printing costs and other m
 
 Everything else will go towards our Learning Gardens Microgrants program (exact name TBD), which will grant groups between $50 and $300 to fund organizational development, field trips, projects, and other activity within gardens that necessitates a budget. Our primary goal with the grants is to make learning group organization a more accessible activity to all.
 
-As of writing, we have over $1000 in our campaign. As a stretch goal, if we can read $1400 by the end of our month, not only will the entire pamphlet be Risograph printed, but all contributors over $5 will receive a Learning Gardens pencil too.
+As of writing, we have over $1000 in our campaign. As a stretch goal, __if we can reach $1400__ by the end of our month, not only will the entire pamphlet be Risograph printed, but all contributors over $5 will receive a Learning Gardens pencil too.
 
 We are now collecting the pages from all of our participating gardens:
 
