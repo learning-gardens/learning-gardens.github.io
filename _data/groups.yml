@@ -54,3 +54,31 @@
   icon: "apl-1x1.png"
   url: "https://github.com/learning-gardens/pattern_language"
   contact: ""
+
+- name: Philosophy
+  description: >
+    Philosophy Study Hall
+  icon: "phil-1x1.png"
+  url: "#"
+  contact: ""
+
+- name: Applying For Things
+  description: >
+    Applying For Things is a gathering put together by res, who are here to help you find, apply for, and get opportunities to help  your creative practice: residencies, grants, fellowships, incubators, labs, and so on. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
+  icon: "aft-1x1.gif"
+  url: "https://www.patreon.com/_res"
+  contact: ""
+
+- name: Speculating Futures
+  description: >
+    Speculating Futures looks at past speculative narratives, like those of Ursula K. Le Guin, and past attempts at creating technological utopia, like Chile's Cybersyn. These readings examine the shortcomings that prevented these visions from being fully realized and how they may have been limited or exclusionary. These texts also tie these visions to the contemporary issues/present dystopias that need to be addressed in subsequent utopian imaginaries.
+  icon: "sf-1x1.png"
+  url: "http://speculatingfutures.club/"
+  contact: ""
+
+- name: studio studio
+  description: >
+    studio studio is a distributed community sharing practical knowledge, libraries of resources, collaborating on work, and joining in crit sessions.
+  icon: "ss-1x1.png"
+  url: "http://studiostudio.club/"
+  contact: ""
