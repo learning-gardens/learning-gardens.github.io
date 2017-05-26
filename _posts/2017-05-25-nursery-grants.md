@@ -2,7 +2,7 @@
 layout: post
 title: Nursery Grants vol. 1
 headline: Inaugural Giving
-date: 2017-02-06
+date: 2017-05-25
 ---
 
 Fueled by our successful Kickstarter, Learning Gardens now has a [budget](https://docs.google.com/spreadsheets/d/1m8NvPwCndBrDbHtiwmBfx77wn4ExbYVh015mFZkPV4M/edit#gid=0) to work with, and we have put this to use with a small [merch store](http://learningardens.tictail.com/) and our first rollout of the [Nursery Grants](http://learning-gardens.co/grants). 
