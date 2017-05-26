@@ -13,7 +13,7 @@ We had a great pool of applicants, and ultimately made our decisions based on th
 
 Now, our two recipients:
 
-[By Us For Us](http://www.bufubyusforus.com/)
+[By Us For Us](http://www.bufubyusforus.com/):
 
 > BUFU is a collaborative living archive centered around (pan)Black and (pan)Asian cultural and political relationships. We, the founders of this project, are a collective of queer, femme and non-binary, Black and East-Asian artists and organizers. Our goal is to facilitate a global conversation on the cultural contact between Black & Asian diasporas, with an emphasis on building solidarity, de-centering whiteness, and resurfacing our deeply interconnected and complicated histories. We attempt to achieve this through our collaborative programming, our visual archives, and through building long-term partnerships with collectives, organizations, and individuals. 
 
@@ -21,7 +21,7 @@ Now, our two recipients:
 
 BUFU will use the Nursery Grant to support transit to the Summer programming. 
 
-And [Extra-Curricular](http://extra-curricular.org/) by 
+And [Extra-Curricular](http://extra-curricular.org/):
 
 > Extra-curricular is a reader of collected texts about self-organized learning, experiments, and alternatives in art and design education. Occurring both within and separate from current institutions, these new forms of learning and organization question how learning takes place, for whom, and the ideologies inherent in existing models, among many other things. An (admittedly) incomplete inventory, this book aims to serve as a starting point for further discussion and experimentation.
 
