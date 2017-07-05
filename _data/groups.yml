@@ -1,6 +1,6 @@
 - name: Mondays
   description: >
-    Mondays is a casual discussion group for creative thinkers from all disciplines. Its simple aim is to encourage knowledge-sharing and self-learning by providing a space for the commingling of ideas, for reflective conversations that might otherwise not be had.
+    We research meta-topics like symbols, meaning, and perspective.
   icon: "mon-1x1.png"
   url: "http://mondays.nyc/"
   type: "Slack"
@@ -21,14 +21,14 @@
 
 - name: Cybernetics Club
   description: >
-    Cybernetics Club is a learning group organized around the legacy of cybernetics and all the fields it has touched. What is the relevance of cybernetics today? Can it provide us the tools to make sense of the world today? Better yet, can it give us a direction for improving things?
+    A reading and discussion group around all things cybernetics
   icon: "cc-1x1.png"
   url: "https://github.com/learning-gardens/cybernetics-club"
   contact: ""
 
 - name: Pedagogy Play Lab
   description: >
-    A reading club about play, pedagogy, and learning meeting biweekly starting soon in Williamsburg, Brooklyn.
+    Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours. 
   icon: "ppl-1x1.png"
   url: "http://ryancan.build/pedagogy-play-lab/"
   contact: ""
