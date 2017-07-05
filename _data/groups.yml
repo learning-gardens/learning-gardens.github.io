@@ -3,7 +3,7 @@
     Mondays is a casual discussion group for creative thinkers from all disciplines. Its simple aim is to encourage knowledge-sharing and self-learning by providing a space for the commingling of ideas, for reflective conversations that might otherwise not be had.
   icon: "mon-1x1.png"
   url: "http://mondays.nyc/"
-  contact: ""
+  type: "Slack"
 
 - name: Pixel Lab
   description: >
@@ -33,27 +33,27 @@
   url: "http://ryancan.build/pedagogy-play-lab/"
   contact: ""
 
-- name: Millennial Focus Group
-  description: >
-    monthly irl discussion. 4 reading, collaborating, presenting, critiquing, and hanging
-    vaguely identity-oriented, creatively-inclined, internet-aware, structurally-experimental
-    networked thinking <<<>>> intersectional thinking
-  icon: "mfg-1x1.png"
-  url: "http://millennialfocusgroup.info/"
-  contact: ""
+# - name: Millennial Focus Group
+#   description: >
+#     monthly irl discussion. 4 reading, collaborating, presenting, critiquing, and hanging
+#     vaguely identity-oriented, creatively-inclined, internet-aware, structurally-experimental
+#     networked thinking <<<>>> intersectional thinking
+#   icon: "mfg-1x1.png"
+#   url: "http://millennialfocusgroup.info/"
+#   contact: ""
 
-- name: Utopia School
-  description: "Utopia School is an ongoing project that shares information about both failed and successful utopian projects and work towards new ones. For us, utopias are those spaces and initiatives that re-imagine the world in some crucial way. The school engages and connects people through urgent conversations, with the goal of exploring, archiving and distributing collective knowledge throughout this multi-city project."
-  icon: "us-1x1.png"
-  url: "http://www.utopiaschool.org/"
-  contact: ""
+# - name: Utopia School
+#   description: "Utopia School is an ongoing project that shares information about both failed and successful utopian projects and work towards new ones. For us, utopias are those spaces and initiatives that re-imagine the world in some crucial way. The school engages and connects people through urgent conversations, with the goal of exploring, archiving and distributing collective knowledge throughout this multi-city project."
+#   icon: "us-1x1.png"
+#   url: "http://www.utopiaschool.org/"
+#   contact: ""
 
-- name: A Pattern Language Group
-  description: >
-    Biweekly reading group on A Pattern Language, attempting to reinterpret the book for the current-day.
-  icon: "apl-1x1.png"
-  url: "https://github.com/learning-gardens/pattern_language"
-  contact: ""
+# - name: A Pattern Language Group
+#   description: >
+#     Biweekly reading group on A Pattern Language, attempting to reinterpret the book for the current-day.
+#   icon: "apl-1x1.png"
+#   url: "https://github.com/learning-gardens/pattern_language"
+#   contact: ""
 
 - name: Philosophy
   description: >
