@@ -12,12 +12,12 @@
   url: "http://morgane.com/pixel-lab"
   contact: ""
 
-- name: Emulating Intelligence
-  description: >
-    EI is a learning group organized around the design, implementation, and implications of artificial intelligence as it is increasingly deployed throughout our lives. We'll weave together the theoretical, the practical, and the social aspects of the field and link it up to current events, anxieties, and discussions. To tie it all together, we'll experiment with tools for integrating AI into our own processes and practices.
-  icon: "ei.svg"
-  url: "https://github.com/learning-gardens/_emulating_intelligence"
-  contact: ""
+# - name: Emulating Intelligence
+#   description: >
+#     EI is a learning group organized around the design, implementation, and implications of artificial intelligence as it is increasingly deployed throughout our lives. We'll weave together the theoretical, the practical, and the social aspects of the field and link it up to current events, anxieties, and discussions. To tie it all together, we'll experiment with tools for integrating AI into our own processes and practices.
+#   icon: "ei.svg"
+#   url: "https://github.com/learning-gardens/_emulating_intelligence"
+#   contact: ""
 
 - name: Cybernetics Club
   description: >
