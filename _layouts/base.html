@@ -32,23 +32,11 @@
 
       <header class="fl w-100">
         <h1 class="lh-title normal f4 pa2 pa4-l">
-          <a class="link black" href="/">Learning Gardens</a>
+          <a class="link black" href="/">{{ site.title }}</a>
         </h1>
       </header>
 
-      <!-- <div class="fl w-100 w-50-ns pa2 pv2-l ph4-l">
-        <h2>
-          <a class="link black" href="{{ site.url | prepend: site.github.url }}">Learning Gardens</a>
-        </h2>
-      </div> -->
-
       {{ content }}
-
-      {% include groups_loop.html %}
-
-      {% include articles_loop.html %}
-
-      {% include extra_info.html %}
 
     </article>
 

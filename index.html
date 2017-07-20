@@ -2,7 +2,6 @@
 layout: base
 ---
 <section class="fl w-100">
-
   <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
     <p class="f4 lh-copy measure">
         Learning Gardens is a meta-organization weaving networks of self-organized learning groups. <br /><br />
@@ -13,28 +12,36 @@ layout: base
 
   <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
     <p class="f4 lh-copy measure">
-      We are constructing a model of community learning that driven by interest. Large institutions should not be required — we want people to realize how much social infrastructure exists for learning in the form of people, places, and resources.<br /><br />
-
-      You can read and edit our definition &amp; purpose <a class="link dim green" href="https://docs.google.com/document/d/14zhjp8wFw_qpgEi7q8zJF7WmE_lAUKO99Gpg4w_NeHk/edit#" target="_blank">through this document</a>.
-    </p>
-  </div>
-
-  <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
-    <p class="f4 lh-copy measure">
-      “Étudiants sans Frontières”
-    </p>
-  </div>
-  
-  <div class="fl w-100 w-50-m w-25-l pa2 pv2-l ph4-l">
-    <p class="f4 lh-copy measure">
-      Learning Gardens is...<br>
-      ... a network of ideas, people, and resources.<br>
-      ... built to encourage self-initiated community learning projects.<br>
-      ... free to join and use.<br>
-      ... a substrate in which many things can grow. <br><br>
+      Joining Learning Gardens is free and interest-driven. We encourage you to realize how much existing infrastructure for learning exists in the form of people, places, and resources.<br /><br />
 
       We are an internet-native organization. As such, we seek to embrace transparency, decentralization, and multiple access points.
     </p>
   </div>
 
+  <!-- <h1 class="lh-title normal f4 pa2 pa4-l">
+    “Étudiants sans Frontières”
+  </h1> -->
+
+</section>
+
+<section class="fl w-100">
+
+  {% include groups_loop.html %}
+
+</section>
+
+<section class="fl w-100">
+  <div class="fl w-100 w-50-l pa2 pv2-l ph4-l">
+    <h2 class="normal">Additional Pages:</h2>
+
+    {% include pages.html %}
+  </div>
+  <div class="fl w-100 w-50-l pa2 pv2-l ph4-l">
+
+  </div>
+  <div class="fl w-100 w-50-l pa2 pv2-l ph4-l">
+    <h2 class="normal">Gardens Blog:</h2>
+
+    {% include articles_loop.html %}
+  </div>
 </section>

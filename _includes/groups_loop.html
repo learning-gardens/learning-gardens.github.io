@@ -1,24 +1,20 @@
 <!-- Loop over _data/groups.yml -->
 <section class="fl w-100">
 
-    <h2 class="lh-title normal ph2 pv4 pa4-l f4"><span>Our lovely learning groups:</span></h2>
+    <!-- <h2 class="lh-title normal ph2 pv4 pa4-l f4"><span>Our lovely learning groups:</span></h2> -->
 
     {% for group in site.data.groups %}
     <div class="fl w-100 w-50-m w-25-ns pa4 dib">
-        <!--<div class="aspect-ratio aspect-ratio--1x1">
-            <a href="{{ group.url }}" target="_blank" class="black link"><span style="background-image:url({{ site.github.url }}/images/{{ group.icon }});" class="cover bg-center contain aspect-ratio--object "></span></a>
-        </div>-->
         <h2 class="normal">
             <a href="{{group.url}}" class="black">{{ group.name }}</a>
-        </h2> 
+        </h2>
+        <span class="ttu roboto">
+          {{ group.type }}
+        </span>
         <p class="lh-copy ">
             {{ group.description }}
         </p>
-        <!--<p>{{ group.url }}</p> -->
-        <p class="lh-copy">Organizes via 
-            <a href="{{group.url}}">{{group.type}}</a>
-        </p>
     </div>
     {% endfor %}
-    
+
 </section>

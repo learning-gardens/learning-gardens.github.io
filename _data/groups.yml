@@ -1,84 +1,42 @@
 - name: Mondays
   description: >
     We research meta-topics like symbols, meaning, and perspective.
-  icon: "mon-1x1.png"
   url: "http://mondays.nyc/"
-  type: "Slack"
+  type: "workshop"
 
 - name: Pixel Lab
   description: >
     A community of indie game devs and weird web artists — we're here to learn from each other and provide feedback and support for our digital side projects.
-  icon: "PL-1x1.svg"
   url: "http://morgane.com/pixel-lab"
-  contact: ""
-
-# - name: Emulating Intelligence
-#   description: >
-#     EI is a learning group organized around the design, implementation, and implications of artificial intelligence as it is increasingly deployed throughout our lives. We'll weave together the theoretical, the practical, and the social aspects of the field and link it up to current events, anxieties, and discussions. To tie it all together, we'll experiment with tools for integrating AI into our own processes and practices.
-#   icon: "ei.svg"
-#   url: "https://github.com/learning-gardens/_emulating_intelligence"
-#   contact: ""
+  type: "studio"
 
 - name: Cybernetics Club
   description: >
     A reading and discussion group around all things cybernetics
-  icon: "cc-1x1.png"
   url: "https://github.com/learning-gardens/cybernetics-club"
-  contact: ""
+  type: "reading group"
 
 - name: Pedagogy Play Lab
   description: >
-    Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours. 
-  icon: "ppl-1x1.png"
+    Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours.
   url: "http://ryancan.build/pedagogy-play-lab/"
-  contact: ""
-
-# - name: Millennial Focus Group
-#   description: >
-#     monthly irl discussion. 4 reading, collaborating, presenting, critiquing, and hanging
-#     vaguely identity-oriented, creatively-inclined, internet-aware, structurally-experimental
-#     networked thinking <<<>>> intersectional thinking
-#   icon: "mfg-1x1.png"
-#   url: "http://millennialfocusgroup.info/"
-#   contact: ""
-
-# - name: Utopia School
-#   description: "Utopia School is an ongoing project that shares information about both failed and successful utopian projects and work towards new ones. For us, utopias are those spaces and initiatives that re-imagine the world in some crucial way. The school engages and connects people through urgent conversations, with the goal of exploring, archiving and distributing collective knowledge throughout this multi-city project."
-#   icon: "us-1x1.png"
-#   url: "http://www.utopiaschool.org/"
-#   contact: ""
-
-# - name: A Pattern Language Group
-#   description: >
-#     Biweekly reading group on A Pattern Language, attempting to reinterpret the book for the current-day.
-#   icon: "apl-1x1.png"
-#   url: "https://github.com/learning-gardens/pattern_language"
-#   contact: ""
-
-- name: Philosophy
-  description: >
-    Philosophy Study Hall
-  icon: "phil-1x1.png"
-  url: "#"
-  contact: ""
+  type: "reading group"
 
 - name: Applying For Things
   description: >
     Applying For Things is a gathering put together by res, who are here to help you find, apply for, and get opportunities to help  your creative practice: residencies, grants, fellowships, incubators, labs, and so on. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
-  icon: "aft-1x1.gif"
   url: "https://www.patreon.com/_res"
-  contact: ""
+  type: "workshop"
 
-- name: Speculating Futures
-  description: >
-    Speculating Futures looks at past speculative narratives, like those of Ursula K. Le Guin, and past attempts at creating technological utopia, like Chile's Cybersyn. These readings examine the shortcomings that prevented these visions from being fully realized and how they may have been limited or exclusionary. These texts also tie these visions to the contemporary issues/present dystopias that need to be addressed in subsequent utopian imaginaries.
-  icon: "sf-1x1.png"
-  url: "http://speculatingfutures.club/"
-  contact: ""
+# - name: Speculating Futures
+#   description: >
+#     Speculating Futures looks at past speculative narratives, like those of Ursula K. Le Guin, and past attempts at creating technological utopia, like Chile's Cybersyn. These readings examine the shortcomings that prevented these visions from being fully realized and how they may have been limited or exclusionary. These texts also tie these visions to the contemporary issues/present dystopias that need to be addressed in subsequent utopian imaginaries.
+#   icon: "sf-1x1.png"
+#   url: "http://speculatingfutures.club/"
+#   contact: ""
 
 - name: studio studio
   description: >
     studio studio is a distributed community sharing practical knowledge, libraries of resources, collaborating on work, and joining in crit sessions.
-  icon: "ss-1x1.png"
   url: "http://studiostudio.club/"
-  contact: ""
+  type: "studio"
