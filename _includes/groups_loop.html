@@ -6,7 +6,11 @@
     {% for group in site.data.groups %}
     <div class="fl w-100 w-50-m w-25-ns pa4 dib">
         <h2 class="normal">
+            {% if {{group.url}} != "" %}
             <a href="{{group.url}}" class="black">{{ group.name }}</a>
+            {% else %}
+            {{ group.name }}
+            {% endif %}
         </h2>
         <span class="ttu roboto">
           {{ group.type }}

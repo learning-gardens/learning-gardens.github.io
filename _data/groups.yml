@@ -1,18 +1,18 @@
-- name: Mondays
-  description: >
-    We research meta-topics like symbols, meaning, and perspective.
-  url: "http://mondays.nyc/"
-  type: "workshop"
+#- name: Mondays
+#  description: >
+#  We research meta-topics like symbols, meaning, and perspective.
+#  url: "http://mondays.nyc/"
+#  type: "workshop"
 
 - name: Pixel Lab
   description: >
-    A community of indie game devs and weird web artists — we're here to learn from each other and provide feedback and support for our digital side projects.
+    Pixel Lab is dedicated to working on creative technological projects and teaching each other how we can use computers as artistic tools.
   url: "http://morgane.com/pixel-lab"
   type: "studio"
 
 - name: Cybernetics Club
   description: >
-    A reading and discussion group around all things cybernetics
+    A reading and discussion group around all things cybernetics.
   url: "https://github.com/learning-gardens/cybernetics-club"
   type: "reading group"
 
@@ -22,11 +22,11 @@
   url: "http://ryancan.build/pedagogy-play-lab/"
   type: "reading group"
 
-- name: Applying For Things
+- name: Generative Poetry
   description: >
-    Applying For Things is a gathering put together by res, who are here to help you find, apply for, and get opportunities to help  your creative practice: residencies, grants, fellowships, incubators, labs, and so on. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
-  url: "https://www.patreon.com/_res"
-  type: "workshop"
+    We're discussing the evolution of generative poetry of all shapes and forms. our discussions often look back on correlations from art history, cybernetics and linguistics to inform and inspire us as we brainstorm new modalities for creative schemas.
+  url: ""
+  type: "study hall"
 
 # - name: Speculating Futures
 #   description: >
@@ -40,3 +40,51 @@
     studio studio is a distributed community sharing practical knowledge, libraries of resources, collaborating on work, and joining in crit sessions.
   url: "http://studiostudio.club/"
   type: "studio"
+
+- name: Code
+  description: >
+    A space to ask and answer questions related to code, computation, programming, and the idiosyncrasies of tech culture.
+  url: "https://github.com/learning-gardens/code"
+  type: "study hall"
+
+- name: economics-and-finance
+  description: >
+    #economics-and-finance is the money garden, an independent learning group focused on the study of industry, markets, value, and exchange.
+  url: ""
+  type: "study hall"
+
+- name: Applying For Things
+  description: >
+    Find, apply for, and get opportunities to support creative practices. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
+  url: "http://res.today"
+  type: "workshop"
+
+- name: Critical UI Design
+  description: >
+    A discussion group about the practice and nature of interface design.
+  url: ""
+  type: "study hall"
+
+- name: Fotog
+  description: >
+    A discussion group around photography.
+  url: ""
+  type: "study hall"
+
+- name: Gardening
+  description: >
+    Gardening is a slow-burning space for sharing & increasing knowledge & appreciation of plants
+  url: ""
+  type: "study hall"
+
+- name: "#dungeon"
+  description: >
+    #economics-and-finance is the money garden, an independent learning group focused on the study of industry, markets, value, and exchange.
+  url: ""
+  type: "study hall"
+
+- name: "Antilibraries"
+  description: >
+    A place for conversation about fascinating books; unread books; the libraries of infinite potential that expand our “adjacent possible” just by being aware of them. A literary meta-verse for readers and writers. A generator for spinoff book groups.
+  url: ""
+  type: "study hall"
