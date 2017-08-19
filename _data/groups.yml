@@ -1,84 +1,90 @@
-- name: Mondays
-  description: >
-    Mondays is a casual discussion group for creative thinkers from all disciplines. Its simple aim is to encourage knowledge-sharing and self-learning by providing a space for the commingling of ideas, for reflective conversations that might otherwise not be had.
-  icon: "mon-1x1.png"
-  url: "http://mondays.nyc/"
-  type: "Slack"
+#- name: Mondays
+#  description: >
+#  We research meta-topics like symbols, meaning, and perspective.
+#  url: "http://mondays.nyc/"
+#  type: "workshop"
 
 - name: Pixel Lab
   description: >
-    A community of indie game devs and weird web artists — we're here to learn from each other and provide feedback and support for our digital side projects.
-  icon: "PL-1x1.svg"
+    Pixel Lab is dedicated to working on creative technological projects and teaching each other how we can use computers as artistic tools.
   url: "http://morgane.com/pixel-lab"
-  contact: ""
-
-# - name: Emulating Intelligence
-#   description: >
-#     EI is a learning group organized around the design, implementation, and implications of artificial intelligence as it is increasingly deployed throughout our lives. We'll weave together the theoretical, the practical, and the social aspects of the field and link it up to current events, anxieties, and discussions. To tie it all together, we'll experiment with tools for integrating AI into our own processes and practices.
-#   icon: "ei.svg"
-#   url: "https://github.com/learning-gardens/_emulating_intelligence"
-#   contact: ""
+  type: "studio"
 
 - name: Cybernetics Club
   description: >
-    Cybernetics Club is a learning group organized around the legacy of cybernetics and all the fields it has touched. What is the relevance of cybernetics today? Can it provide us the tools to make sense of the world today? Better yet, can it give us a direction for improving things?
-  icon: "cc-1x1.png"
+    A reading and discussion group around all things cybernetics.
   url: "https://github.com/learning-gardens/cybernetics-club"
-  contact: ""
+  type: "reading group"
 
 - name: Pedagogy Play Lab
   description: >
-    A reading club about play, pedagogy, and learning meeting biweekly starting soon in Williamsburg, Brooklyn.
-  icon: "ppl-1x1.png"
+    Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours.
   url: "http://ryancan.build/pedagogy-play-lab/"
-  contact: ""
+  type: "reading group"
 
-# - name: Millennial Focus Group
+- name: Generative Poetry
+  description: >
+    We're discussing the evolution of generative poetry of all shapes and forms. our discussions often look back on correlations from art history, cybernetics and linguistics to inform and inspire us as we brainstorm new modalities for creative schemas.
+  url: ""
+  type: "study hall"
+
+# - name: Speculating Futures
 #   description: >
-#     monthly irl discussion. 4 reading, collaborating, presenting, critiquing, and hanging
-#     vaguely identity-oriented, creatively-inclined, internet-aware, structurally-experimental
-#     networked thinking <<<>>> intersectional thinking
-#   icon: "mfg-1x1.png"
-#   url: "http://millennialfocusgroup.info/"
+#     Speculating Futures looks at past speculative narratives, like those of Ursula K. Le Guin, and past attempts at creating technological utopia, like Chile's Cybersyn. These readings examine the shortcomings that prevented these visions from being fully realized and how they may have been limited or exclusionary. These texts also tie these visions to the contemporary issues/present dystopias that need to be addressed in subsequent utopian imaginaries.
+#   icon: "sf-1x1.png"
+#   url: "http://speculatingfutures.club/"
 #   contact: ""
-
-# - name: Utopia School
-#   description: "Utopia School is an ongoing project that shares information about both failed and successful utopian projects and work towards new ones. For us, utopias are those spaces and initiatives that re-imagine the world in some crucial way. The school engages and connects people through urgent conversations, with the goal of exploring, archiving and distributing collective knowledge throughout this multi-city project."
-#   icon: "us-1x1.png"
-#   url: "http://www.utopiaschool.org/"
-#   contact: ""
-
-# - name: A Pattern Language Group
-#   description: >
-#     Biweekly reading group on A Pattern Language, attempting to reinterpret the book for the current-day.
-#   icon: "apl-1x1.png"
-#   url: "https://github.com/learning-gardens/pattern_language"
-#   contact: ""
-
-- name: Philosophy
-  description: >
-    Philosophy Study Hall
-  icon: "phil-1x1.png"
-  url: "#"
-  contact: ""
-
-- name: Applying For Things
-  description: >
-    Applying For Things is a gathering put together by res, who are here to help you find, apply for, and get opportunities to help  your creative practice: residencies, grants, fellowships, incubators, labs, and so on. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
-  icon: "aft-1x1.gif"
-  url: "https://www.patreon.com/_res"
-  contact: ""
-
-- name: Speculating Futures
-  description: >
-    Speculating Futures looks at past speculative narratives, like those of Ursula K. Le Guin, and past attempts at creating technological utopia, like Chile's Cybersyn. These readings examine the shortcomings that prevented these visions from being fully realized and how they may have been limited or exclusionary. These texts also tie these visions to the contemporary issues/present dystopias that need to be addressed in subsequent utopian imaginaries.
-  icon: "sf-1x1.png"
-  url: "http://speculatingfutures.club/"
-  contact: ""
 
 - name: studio studio
   description: >
     studio studio is a distributed community sharing practical knowledge, libraries of resources, collaborating on work, and joining in crit sessions.
-  icon: "ss-1x1.png"
   url: "http://studiostudio.club/"
-  contact: ""
+  type: "studio"
+
+- name: Code
+  description: >
+    A space to ask and answer questions related to code, computation, programming, and the idiosyncrasies of tech culture.
+  url: "https://github.com/learning-gardens/code"
+  type: "study hall"
+
+- name: economics-and-finance
+  description: >
+    #economics-and-finance is the money garden, an independent learning group focused on the study of industry, markets, value, and exchange.
+  url: ""
+  type: "study hall"
+
+- name: Applying For Things
+  description: >
+    Find, apply for, and get opportunities to support creative practices. We invite experts in the field to share their perspective on reading & selecting projects, and work together to get into the habit of applying for creative opportunities.
+  url: "http://res.today"
+  type: "workshop"
+
+- name: Critical UI Design
+  description: >
+    A discussion group about the practice and nature of interface design.
+  url: ""
+  type: "study hall"
+
+- name: Fotog
+  description: >
+    A discussion group around photography.
+  url: ""
+  type: "study hall"
+
+- name: Gardening
+  description: >
+    Gardening is a slow-burning space for sharing & increasing knowledge & appreciation of plants
+  url: ""
+  type: "study hall"
+
+- name: "#dungeon"
+  description: >
+    #economics-and-finance is the money garden, an independent learning group focused on the study of industry, markets, value, and exchange.
+  url: ""
+  type: "study hall"
+
+- name: "Antilibraries"
+  description: >
+    A place for conversation about fascinating books; unread books; the libraries of infinite potential that expand our “adjacent possible” just by being aware of them. A literary meta-verse for readers and writers. A generator for spinoff book groups.
+  url: ""
+  type: "study hall"
