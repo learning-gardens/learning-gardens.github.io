@@ -16,17 +16,17 @@
   url: "https://github.com/learning-gardens/cybernetics-club"
   type: "reading group"
 
-- name: Pedagogy Play Lab
-  description: >
-    Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours.
-  url: "http://ryancan.build/pedagogy-play-lab/"
-  type: "reading group"
+# - name: Pedagogy Play Lab
+#   description: >
+#     Pedagogy Play Lab is a casual conversation group interested in play and learning. Our meetings focus on a specific topic, like Montessori or MMORPGs and last for a couple hours.
+#   url: "http://ryancan.build/pedagogy-play-lab/"
+#   type: "reading group"
 
-- name: Generative Poetry
-  description: >
-    We're discussing the evolution of generative poetry of all shapes and forms. our discussions often look back on correlations from art history, cybernetics and linguistics to inform and inspire us as we brainstorm new modalities for creative schemas.
-  url: ""
-  type: "study hall"
+# - name: Generative Poetry
+#   description: >
+#     We're discussing the evolution of generative poetry of all shapes and forms. our discussions often look back on correlations from art history, cybernetics and linguistics to inform and inspire us as we brainstorm new modalities for creative schemas.
+#   url: ""
+#   type: "study hall"
 
 # - name: Speculating Futures
 #   description: >
