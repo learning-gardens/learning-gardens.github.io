@@ -1,10 +1,10 @@
 <!-- Loop over _data/groups.yml -->
-<section class="fl w-100">
+<section class="w-100 flex flex-wrap">
 
     <!-- <h2 class="lh-title normal ph2 pv4 pa4-l f4"><span>Our lovely learning groups:</span></h2> -->
 
     {% for group in site.data.groups %}
-    <div class="fl w-100 w-50-m w-25-ns pa4 dib">
+    <div class="w-100 w-50-m w-25-ns pa4-ns ma0-ns ma2 flex-row">
         <h2 class="normal">
             {% if {{group.url}} != "" %}
             <a href="{{group.url}}" class="black">{{ group.name }}</a>
