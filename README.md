@@ -3,7 +3,7 @@
 
 —
 
-Intro
+Intro:
 
 Welcome to Learning Gardens' source. It's a static site built using [Jekyll](https://jekyllrb.com/) and [Tachyons](http://tachyons.io/), in the form of [Jekyons](https://tinychime.github.io/jekyons/).
 
@@ -11,7 +11,7 @@ If you're looking for general information on Learning Gardens itself, this might
 
 —
 
-Technical Details
+Technical Details:
 
 Currently this site is being hosted and served via Github Pages. It is simple and lovely and does the trick.
 
